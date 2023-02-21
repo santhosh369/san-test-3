@@ -1,0 +1,43 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Service Not Available",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"93f36414-92e3-444e-9d6c-c34e71d6aa18\",\"columns\":[{\"UUID\":\"90682515-6e0d-4cc7-bf31-972109f38a8e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div style=\"display: flex; align-items: center; flex-direction: column; margin: 60px 25px 40px 25px;\">\n\t<div style=\"background: url(assets/img/serviceNotAvailable.svg) center no-repeat; background-size: contain; height: 331px; width: 100%; max-width: 538px;\"></div>\n</div>\n<div style=\"margin: 0 25px; text-align: center;\">\n\t<h1><b style=\"font-size: 2em\">Looks like the site is temporarily unavailable</b></h1>\n\t<br/>\n\t<p><span style=\"font-size: 1.5em;\">Please try again in a bit.</span></p>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "cb659257-eb80-4afc-af24-49b55f05f296",
+              "type" : "component"
+            } ],
+            "id" : "90682515-6e0d-4cc7-bf31-972109f38a8e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "93f36414-92e3-444e-9d6c-c34e71d6aa18",
+          "type" : "component"
+        } ],
+        "id" : "0ac58a28-92b5-46bb-aef4-b330b53b83c5",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "08f0a140-6344-4207-899f-70c40239ced5",
+      "type" : "component"
+    },
+    "themeLayoutType" : "ServiceNotAvailable",
+    "viewType" : "service-not-available"
+  }
+}
